@@ -1,12 +1,9 @@
-## picoCTF Write Ups
-
-Nexxsys
----------------------------------------
+# picoCTF Write Ups
 
 ## General Skills
 ### Obedient Cat
 
-*Description:* This file has a flag in plain sight (aka "in-the-clear"). Download flag.
+**Description:** This file has a flag in plain sight (aka "in-the-clear"). Download flag.
 
 In a Webshell session:
 ```bash
@@ -20,7 +17,7 @@ picoCTF{s4n1ty_v3r1f13d_1a94e0f9}
 
 ### Wave a flag
 
-*Description:* Can you invoke help flags for a tool or binary? This program has extraordinarily helpful information...
+**Description:** Can you invoke help flags for a tool or binary? This program has extraordinarily helpful information...
 
 ```bash
 wget https://mercury.picoctf.net/static/beec4f433e5ee5bfcd71bba8d5863faf/warm
@@ -52,11 +49,11 @@ Now we need to execute the file
 ```bash
 ./warm
 ```
-Result isn't exactly what we expected:
+The result isn't exactly what we expected:
 ```bash
 Hello user! Pass me a -h to learn what I can do!
 ```
-Re-run with the *-h* option:
+Re-run with the **-h** option:
 ```bash
 Oh, help? I actually don't do much, but I do have this flag here: picoCTF{b1scu1ts_4nd_gr4vy_616f7182}
 ```
